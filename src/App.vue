@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FormPreference pageTitle="Dog Preference" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FormPreference from "./components/FormPreference.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    FormPreference,
+  },
+};
 </script>
 
 <style>
@@ -22,5 +21,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+body {
+  background-color: #0a192f;
 }
 </style>
